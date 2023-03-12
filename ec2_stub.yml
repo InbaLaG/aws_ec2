@@ -1,0 +1,72 @@
+---
+- region: "us-east-1"
+  reservations:
+    - instances:
+        - instance_id: "i-1234567890abcdef0"
+          state:
+            name: "running"
+          private_ip_address: "10.0.0.1"
+          public_ip_address: "54.0.0.1"
+          instance_type: "t2.micro"
+          launch_time: 2023-03-12 12:00:00
+        - instance_id: "i-1234567890abcdef1"
+          state:
+            name: "stopped"
+          private_ip_address: "10.0.0.2"
+          public_ip_address: "54.0.0.2"
+          instance_type: "t2.micro"
+          launch_time: 2023-03-12 12:05:00
+
+- region: "us-west-1"
+  reservations:
+    - instances:
+        - instance_id: "i-1234567890abcdef2"
+          state:
+            name: "running"
+          private_ip_address: "10.0.0.3"
+          public_ip_address: "54.0.0.3"
+          instance_type: "t2.micro"
+          launch_time: 2023-03-12 12:10:00
+        - instance_id: "i-1234567890abcdef3"
+          state:
+            name: "stopped"
+          private_ip_address: "10.0.0.4"
+          public_ip_address: "54.0.0.4"
+          instance_type: "t2.micro"
+          launch_time: 2023-03-12 12:15:00
+
+- region: "eu-west-1"
+  reservations:
+    - instances:
+        - instance_id: "i-1234567890abcdef4"
+          state:
+            name: "running"
+          private_ip_address: "10.0.0.5"
+          public_ip_address: "54.0.0.5"
+          instance_type: "t2.micro"
+          launch_time: 2023-03-12 12:20:00
+        - instance_id: "i-1234567890abcdef5"
+          state:
+            name: "stopped"
+          private_ip_address: "10.0.0.6"
+          public_ip_address: "54.0.0.6"
+          instance_type: "t2.micro"
+          launch_time: 2023-03-12 12:25:00
+
+- region: "ap-southeast-2"
+  reservations:
+    - instances:
+        - instance_id: "i-1234567890abcdef6"
+          state:
+            name: "running"
+          private_ip_address: "10.0.0.7"
+          public_ip_address: "54.0.0.7"
+          instance_type: "t2.micro"
+          launch_time: 2023-03-12 12:30:00
+        - instance_id: "i-1234567890abcdef7"
+          state:
+            name: "stopped"
+          private_ip_address: "10.0.0.8"
+          public_ip_address: "54.0.0.8"
+          instance_type: "t2.micro"
+          launch_time: 2023-03-12 12:35:00
